@@ -20,5 +20,7 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "HelloWorld"
+    Env = "Dev"
+    Created_by = "DevOps
   }
 }
