@@ -7,4 +7,9 @@ module "s3_bucket" {
   versioning = {
     enabled = true
   }
+  tags = {
+    Name = "HelloWorld"
+    Env = "Dev"
+    Created_by = "DevOps"
+  }
 }
